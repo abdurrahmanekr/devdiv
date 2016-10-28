@@ -3,6 +3,16 @@
  * Colla
 */
 
+.dev-div{
+    width: 100%;
+    display: inline-block;
+}
+
+.div-assertive{
+    background: #ca2727;
+    height: 50px;
+}
+
 .container {
     margin: 0 auto;
     max-width: 1280px;
