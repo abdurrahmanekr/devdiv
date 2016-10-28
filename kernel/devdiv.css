@@ -3,19 +3,11 @@
  * Colla
 */
 
-body{
-    background: #000;
-}
-
 .dev-div{    
     background: blue;    
+    width: 100%;
     display: block;
     text-align: center;
-}
-
-.div-assertive{
-    background: #ca2727;
-    height: 50px;
 }
 
 .container {
