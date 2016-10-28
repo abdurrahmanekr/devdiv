@@ -5,6 +5,7 @@ devdiv.directive('devDiv', [function () {
 		restrict: 'E',
 		link: function (scope, iElement, iAttrs) {
 			iElement.addClass("dev-div");
+			iElement.addClass("row");
 		}
 	};
 }])
