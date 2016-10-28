@@ -3,8 +3,8 @@
  * Colla
 */
 
-.dev-div{    
-    background: blue;    
+.dev-div {
+    background: blue;
     width: 100%;
     display: block;
     text-align: center;
@@ -13,7 +13,7 @@
 .container {
     margin: 0 auto;
     max-width: 1280px;
-    width: 90%    
+    width: 90%
 }
 
 @media only screen and (min-width: 601px) {
@@ -152,7 +152,7 @@
 
 .row .col.s12 {
     width: 100%;
-    margin-left: auto;    
+    margin-left: auto;
     left: auto;
     right: auto
 }
@@ -665,4 +665,41 @@
     .row .col.push-l12 {
         left: 100%
     }
+}
+
+.valign-wrapper {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.valign-wrapper .valign {
+    display: block
+}
+
+.hide {
+    display: none !important
+}
+
+.left-align {
+    text-align: left
+}
+
+.right-align {
+    text-align: right
+}
+
+.center, .center-align {
+    text-align: center
+}
+
+.left {
+    float: left !important
+}
+
+.right {
+    float: right !important
 }
