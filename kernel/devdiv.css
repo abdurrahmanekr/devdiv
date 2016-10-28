@@ -3,9 +3,14 @@
  * Colla
 */
 
-.dev-div{
-    width: 100%;
-    display: inline-block;
+body{
+    background: #000;
+}
+
+.dev-div{    
+    background: blue;    
+    display: block;
+    text-align: center;
 }
 
 .div-assertive{
@@ -16,7 +21,7 @@
 .container {
     margin: 0 auto;
     max-width: 1280px;
-    width: 90%
+    width: 90%    
 }
 
 @media only screen and (min-width: 601px) {
@@ -155,7 +160,7 @@
 
 .row .col.s12 {
     width: 100%;
-    margin-left: auto;
+    margin-left: auto;    
     left: auto;
     right: auto
 }
