@@ -1,3 +1,6 @@
+
+/*Text Elements*/
+
 .text-center{
 	text-align: center;
 }
@@ -58,6 +61,8 @@
 	color: #fafafa;
 }
 
+
+/*Divider Elements*/
 
 .divider-light{
 	background: #fafafa;
