@@ -66,41 +66,41 @@
 
 .divider-light{
 	background: #fafafa;
-	padding: 2px 0;
+	padding: 10px 0;
 }
 
 .divider-dark{
 	background: #444;
-	padding: 2px 0;
+	padding: 10px 0;
 }
 
 .divider-energized{
 	background: #ffc900;
-	padding: 2px 0;
+	padding: 10px 0;
 }
 
 
 .divider-balanced{
 	background: #33cd5f;
-	padding: 2px 0;
+	padding: 10px 0;
 }
 
 .divider-positive{
 	background: #387ef5;
-	padding: 2px 0;
+	padding: 10px 0;
 }
 
 .divider-calm{
 	background: #11c1f3;
-	padding: 2px 0;
+	padding: 10px 0;
 }
 
 .divider-royal{
 	background: #886aea;
-	padding: 2px 0;
+	padding: 10px 0;
 }
 
 .divider-assertive{
 	background: #ef473a;
-	padding: 2px 0;
+	padding: 10px 0;
 }
