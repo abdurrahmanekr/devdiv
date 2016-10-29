@@ -168,8 +168,71 @@
 	font-size: 25px;
 	margin-left: 5px;
 	margin-right: -5px;
-	margin-top: -5px;
-	margin-bottom: -5px;
+	margin-top: -6px;
+	margin-bottom: -6px;
+	vertical-align: middle;
+}
+
+.button i.fa {
+	position: relative;
+	font-size: 25px;
+	margin-left: -5px;
+	margin-right: -5px;
+	margin-top: -6px;
+	margin-bottom: -6px;
 	vertical-align: middle;
 	right: 0px;
+}
+
+.button-group {
+	overflow: hidden;
+}
+
+.button-group .button {
+	border-radius: 0px;
+	border-right-width: 0px;
+	float: left;
+}
+
+.button-group .button:first-child {
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px;
+}
+
+.button-group .button:last-child {
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
+	border-right-width: 1px;
+}
+
+.button-group.button-large .button {
+	padding: 15px 20px;
+	font-size: 15px;
+}
+
+.button-group.button-small .button {
+	padding: 5px 10px;
+	font-size: 10px;
+}
+
+
+.button-group.button-oval .button:first-child {
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+.button-group.button-oval .button:last-child {
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-right-width: 1px;
+}
+
+.button-group.button-split .button {
+	margin: 0 5px;
+	border-width: 1px;
+	border-radius: 2px;
+}
+
+.button-group.button-split.button-oval .button{
+	border-radius: 50px;
 }
