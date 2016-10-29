@@ -1,14 +1,42 @@
-.dev-assertive{
-    background: #ca2727;
-    height: 50px;
+.dev-assertive {
+	background: #ca2727;
 }
 
-.dev-positive{
-    background: #0052a5;
-    height: 50px;
+.dev-positive {
+	background: #0052a5;
 }
 
-.dev-energy{
+.dev-energy {
 	background: #ff7200;
-    height: 50px;
+}
+
+
+/* Text Colors */
+
+.positive {
+	color: #387ef5;
+}
+
+.calm {
+	color: #11c1f3;
+}
+
+.balanced {
+	color: #33cd5f;
+}
+
+.energized {
+	color: #ffc900;
+}
+
+.assertive {
+	color: #ef473a;
+}
+
+.royal {
+	color: #886aea;
+}
+
+.dark {
+	color: #444;
 }

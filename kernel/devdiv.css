@@ -3,11 +3,9 @@
  * Colla
 */
 
-.dev-div {
-	background: blue;
-	width: 100%;
-	display: block;
-	text-align: center;
+p {
+	padding: 0;
+	margin: 0;
 }
 
 .container {
