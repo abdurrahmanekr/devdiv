@@ -1,0 +1,46 @@
+.text-center{
+	text-align: center;
+}
+
+.text-left{
+	text-align: left;
+}
+
+.text-right{
+	text-align: right;
+}
+
+.text-truncate{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display:block;
+}
+
+.text-positive {
+	color: #387ef5;
+}
+
+.text-calm {
+	color: #11c1f3;
+}
+
+.text-balanced {
+	color: #33cd5f;
+}
+
+.text-energized {
+	color: #ffc900;
+}
+
+.text-assertive {
+	color: #ef473a;
+}
+
+.text-royal {
+	color: #886aea;
+}
+
+.text-dark {
+	color: #444;
+}
