@@ -1,0 +1,22 @@
+.dev-list,
+.dev-list ul,
+.dev-list a {
+	list-style-type: none;
+	text-decoration: none;
+	color: #222;
+}
+
+.dev-list li {
+	padding: 10px;
+	background: #eee;
+	overflow: hidden;
+}
+
+.dev-list li .dev-list-item {
+	text-decoration: none;
+	float: right;
+}
+
+.dev-list.dev-list-oval li {
+	border-radius: 4px; 
+}
