@@ -7,7 +7,7 @@
 
 1. Projeyi fork edin
 2. Kendinize özel bir branch ekleyin (`git checkout -b benim-branch`)
-3. Değişikliklerinizi commit edin (`git commit -am 'Birşeyler yaptım işte')
+3. Değişikliklerinizi commit edin (`git commit -am 'Birşeyler yaptım işte`)
 4. Oluşturduğunuz branch'ınıza push yapın (`git push origin benim-branch`)
 5. Yeni bir pull request oluşturun.
 
