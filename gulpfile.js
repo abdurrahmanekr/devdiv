@@ -10,7 +10,7 @@ var cssFiles = [
 ];
 
 var jsFiles = [
-	'./docs/kernel/devdiv.js',
+	'./docs/kernel/*.js',
 	'./docs/directive/*.js'
 ];
 
