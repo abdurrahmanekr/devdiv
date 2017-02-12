@@ -1,0 +1,17 @@
+.dev-image {
+	width: 100%;
+}
+
+.image-oval {
+	border-radius: 100%;
+}
+
+.image-square {
+	padding: 2px;
+	border:1px solid #ccc;
+	border-radius: 4px;
+}
+
+.image-shadow {
+	box-shadow: 1px 1px 5px 1px #ccc
+}
