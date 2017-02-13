@@ -5,13 +5,13 @@ var uglify = require('gulp-uglify');
 var ngAnnotate = require('gulp-ng-annotate')
 
 var cssFiles = [
-	'./docs/kernel/*.css',
-	'./docs/component/*.css',
+	'./src/kernel/*.css',
+	'./src/component/*.css',
 ];
 
 var jsFiles = [
-	'./docs/kernel/*.js',
-	'./docs/directive/*.js'
+	'./src/kernel/*.js',
+	'./src/directive/*.js'
 ];
 
 gulp.task('css', function() {
@@ -19,14 +19,14 @@ gulp.task('css', function() {
 	gulp.src(cssFiles)
 		.pipe(concat('devdiv.css'))
 		.pipe(gulp.dest('dist/css/'))
-		.pipe(gulp.dest('./docs/examples/dist/css'));
+		.pipe(gulp.dest('./src/examples/dist/css'));
 
 	// minimize
 	gulp.src(cssFiles)
 		.pipe(concat('devdiv.min.css'))
 		.pipe(minifyCss())
 		.pipe(gulp.dest('dist/css/'))
-		.pipe(gulp.dest('./docs/examples/dist/css'));
+		.pipe(gulp.dest('./src/examples/dist/css'));
 });
 
 gulp.task('js', function() {
@@ -35,7 +35,7 @@ gulp.task('js', function() {
 		.pipe(concat('devdiv.js'))
 		.pipe(ngAnnotate())
 		.pipe(gulp.dest('dist/js/'))
-		.pipe(gulp.dest('./docs/examples/dist/js'));
+		.pipe(gulp.dest('./src/examples/dist/js'));
 
 	// minimize
 	gulp.src(jsFiles)
@@ -43,7 +43,7 @@ gulp.task('js', function() {
 		.pipe(ngAnnotate())
 		.pipe(uglify())
 		.pipe(gulp.dest('dist/js/'))
-		.pipe(gulp.dest('./docs/examples/dist/js'));
+		.pipe(gulp.dest('./src/examples/dist/js'));
 });
 
 gulp.task('watch', function () {

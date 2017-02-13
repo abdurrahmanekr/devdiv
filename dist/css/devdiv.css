@@ -1161,6 +1161,21 @@ p {
 }
 
 
+.dev-panel {
+	width: 100%;
+	overflow: hidden;
+	border: 1px solid #ededed;
+}
+
+.dev-panel .panel-header {
+	padding: 10px 15px;
+	background: #efefef;
+	color: #222;
+}
+
+.dev-panel .panel-content {
+	padding: 10px 15px;
+}
 
 
 

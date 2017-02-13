@@ -17,8 +17,8 @@
 2. Proje dizininde `npm install` 'ı çalıştırın. (__Not:__ nodejs kurulu olduğundan emin olun)
 3. Projede çalışmak için `gulp` yükleyin.
 4. `gulp` komutunu çalıştırarak console penceresini açık tutun.
-5. Artık `docs/component` dizininde css, `docs/directive` dizininde javascript dosyalarını değiştirebilirsiniz.
-6. Değişiklikleri örnek uygulamalarda test etmek için `docs/examples/` dizinini kullanabilirsiniz.
+5. Artık `src/component` dizininde css, `src/directive` dizininde javascript dosyalarını değiştirebilirsiniz.
+6. Değişiklikleri örnek uygulamalarda test etmek için `src/examples/` dizinini kullanabilirsiniz.
 
 ## License
 
