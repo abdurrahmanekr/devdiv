@@ -8,10 +8,13 @@
 	color: #333;
 	outline: none;
 	cursor: pointer;
-	-webkit-user-select: none;  
-  	-moz-user-select: none;    
-  	-ms-user-select: none;      
+	-webkit-user-select: none;
+  	-moz-user-select: none;
+  	-ms-user-select: none;
   	user-select: none;
+}
+a.button {
+	text-decoration: none;
 }
 
 .button:active,

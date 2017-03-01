@@ -714,10 +714,13 @@ p {
 	color: #333;
 	outline: none;
 	cursor: pointer;
-	-webkit-user-select: none;  
-  	-moz-user-select: none;    
-  	-ms-user-select: none;      
+	-webkit-user-select: none;
+  	-moz-user-select: none;
+  	-ms-user-select: none;
   	user-select: none;
+}
+a.button {
+	text-decoration: none;
 }
 
 .button:active,
@@ -948,6 +951,7 @@ p {
 	border-radius: 50px;
 }
 
+
 .dev-assertive {
 	background: #ca2727;
 }
@@ -1158,6 +1162,46 @@ p {
 
 .dev-list.dev-list-oval li {
 	border-radius: 4px; 
+}
+
+.dev-nav {
+	width: 100%;
+	overflow: hidden;
+	background: #efefef;
+}
+
+.dev-nav .nav-header {
+	display: inline-block;
+	padding: 10px 15px;
+	color: #222;
+	font-size: 19px;
+    float: left;
+}
+
+.dev-nav .nav-content {
+	display: inline-block;
+    float: right;
+}
+
+.dev-nav .nav-content .dev-list ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+.dev-nav .nav-content .dev-list li {
+	display: inline-table;
+	height: 100%;
+    padding: 12px 0px;
+}
+
+.dev-nav .nav-content .dev-list li:hover{
+	background: #e5e5e5
+}
+
+.dev-nav .nav-content .dev-list a {
+	overflow: hidden;
+	height: 100%;
+	padding: 12px 15px;
 }
 
 
