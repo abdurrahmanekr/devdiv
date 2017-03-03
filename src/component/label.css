@@ -1,32 +1,29 @@
-
-/*Text Elements*/
-
-.text-center{
+.text-center {
 	text-align: center;
 }
 
-.text-left{
+.text-left {
 	text-align: left;
 }
 
-.text-right{
+.text-right {
 	text-align: right;
 }
 
-.text-justify{
+.text-justify {
 	text-align: justify;
-	text-align-last:center;
+	text-align-last: center;
 }
 
-.text-truncate{
+.text-truncate {
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
-	display:block;
+	display: block;
 }
 
-.text-bold{
-	font-weight: 600;	
+.text-bold {
+	font-weight: 600;
 }
 
 .text-positive {
@@ -61,46 +58,44 @@
 	color: #fafafa;
 }
 
+.dev-bar {
+	background: #ccc;
+	padding: 10px;
+	border-radius: 2px;
+}
 
-/*Divider Elements*/
+.dev-bar.padding {
+	padding: 10px;
+}
 
-.divider-light{
+.dev-bar.light {
 	background: #fafafa;
-	padding: 10px 0;
 }
 
-.divider-dark{
+.dev-bar.dark {
 	background: #444;
-	padding: 10px 0;
 }
 
-.divider-energized{
+.dev-bar.energized {
 	background: #ffc900;
-	padding: 10px 0;
 }
 
-
-.divider-balanced{
+.dev-bar.balanced {
 	background: #33cd5f;
-	padding: 10px 0;
 }
 
-.divider-positive{
+.dev-bar.positive {
 	background: #387ef5;
-	padding: 10px 0;
 }
 
-.divider-calm{
+.dev-bar.calm {
 	background: #11c1f3;
-	padding: 10px 0;
 }
 
-.divider-royal{
+.dev-bar.royal {
 	background: #886aea;
-	padding: 10px 0;
 }
 
-.divider-assertive{
+.dev-bar.assertive {
 	background: #ef473a;
-	padding: 10px 0;
 }

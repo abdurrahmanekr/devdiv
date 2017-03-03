@@ -2,19 +2,37 @@
 	width: 100%;
 	overflow: hidden;
 	background: #efefef;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
 }
 
 .dev-nav .nav-header {
 	display: inline-block;
-	padding: 10px 15px;
 	color: #222;
 	font-size: 19px;
-    float: left;
+	float: left;
+}
+
+.dev-nav .nav-header a {
+	text-decoration: none;
+	padding: 10px 15px;
+	display: inline-table;
+	color: #333;
+}
+
+.dev-nav .nav-header a:active {
+	color: #333;
+}
+
+.dev-nav .nav-header:hover {
+	background: #e5e5e5
 }
 
 .dev-nav .nav-content {
 	display: inline-block;
-    float: right;
+	float: right;
 }
 
 .dev-nav .nav-content .dev-list ul {
@@ -25,10 +43,10 @@
 .dev-nav .nav-content .dev-list li {
 	display: inline-table;
 	height: 100%;
-    padding: 12px 0px;
+	padding: 12px 0px;
 }
 
-.dev-nav .nav-content .dev-list li:hover{
+.dev-nav .nav-content .dev-list li:hover {
 	background: #e5e5e5
 }
 
