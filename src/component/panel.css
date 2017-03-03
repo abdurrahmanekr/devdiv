@@ -18,19 +18,18 @@
 	border: 1px solid #ededed;
 }
 
-.dev-panel .panel-images div.flex {
+.panel-images div.flex {
 	display: flex;
 }
 
-.dev-panel .panel-images div.flex > div {
+.panel-images div.flex > div {
 	height: 150px;
 	float: left;
 	background-position: left !important;
 	background-size: cover !important;
 	background-origin: content-box !important;
 	background-repeat: no-repeat !important;
-	border: 2px solid #ccc;
-	    box-sizing: border-box;
+	border: 2px solid #fff;
 	-webkit-flex: 1; /* Safari 6.1+ */
     -ms-flex: 1; /* IE 10 */
 	flex: 1;
@@ -42,19 +41,58 @@
 	background-size: cover !important;
 	background-origin: content-box !important;
 	background-repeat: no-repeat !important;
-	border: 2px solid #ccc;
+	border: 2px solid #fff;
 	position: relative;
 }
 
-.dev-panel .panel-content p {
+.panel-images .panel-image {
+	cursor: pointer;
+	 -webkit-transition: 200ms; /* Safari */
+    transition: 200ms;
+}
+
+.panel-images .panel-image:hover {
+	opacity: 0.8
+}
+
+.panel-content .panel-avatar {
+	overflow: hidden;
+}
+
+.panel-avatar .panel-avatar-img {
+	width: 40px;
+	height: 40px;
+	border-radius: 2px;
+	background-position: left !important;
+	background-size: cover !important;
+	background-origin: content-box !important;
+	background-repeat: no-repeat !important;
+	display: inline-block;
+}
+
+.panel-avatar .panel-avatar-title {
+	display: inline-block;
+    vertical-align: top;
+    margin-left: 5px;
+}
+
+.panel-avatar .panel-avatar-title p {
+	padding: 0;
+	margin: 0;
+}
+.panel-avatar .panel-avatar-title p:last-child {
+	font-size: 12px
+}
+
+.dev-panel .panel-content > p {
 	margin: 10px 0;
 }
 
-.dev-panel .panel-content p:first-child {
+.dev-panel .panel-content > p:first-child {
 	margin-top: 0px;
 }
 
-.dev-panel .panel-content p:last-child {
+.dev-panel .panel-content > p:last-child {
 	margin-bottom: 0px;
 }
 
