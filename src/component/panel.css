@@ -22,7 +22,7 @@
 	display: flex;
 }
 
-.panel-images div.flex > div {
+.panel-images div.flex>div {
 	height: 150px;
 	float: left;
 	background-position: left !important;
@@ -30,12 +30,14 @@
 	background-origin: content-box !important;
 	background-repeat: no-repeat !important;
 	border: 2px solid #fff;
-	-webkit-flex: 1; /* Safari 6.1+ */
-    -ms-flex: 1; /* IE 10 */
+	-webkit-flex: 1;
+	/* Safari 6.1+ */
+	-ms-flex: 1;
+	/* IE 10 */
 	flex: 1;
 }
 
-.dev-panel .panel-images > div:first-child{
+.dev-panel .panel-images>div:first-child {
 	height: 300px;
 	background-position: left !important;
 	background-size: cover !important;
@@ -47,8 +49,9 @@
 
 .panel-images .panel-image {
 	cursor: pointer;
-	 -webkit-transition: 200ms; /* Safari */
-    transition: 200ms;
+	-webkit-transition: 200ms;
+	/* Safari */
+	transition: 200ms;
 }
 
 .panel-images .panel-image:hover {
@@ -68,20 +71,27 @@
 	background-origin: content-box !important;
 	background-repeat: no-repeat !important;
 	display: inline-block;
+	float: left;
 }
 
 .panel-avatar .panel-avatar-title {
 	display: inline-block;
-    vertical-align: top;
-    margin-left: 5px;
+	vertical-align: top;
+	margin-left: 10px;
+	float: left;
 }
 
 .panel-avatar .panel-avatar-title p {
 	padding: 0;
 	margin: 0;
 }
+
 .panel-avatar .panel-avatar-title p:last-child {
 	font-size: 12px
+}
+
+.panel-avatar .panel-avatar-addition {
+	float: right;
 }
 
 .dev-panel .panel-content > p {
