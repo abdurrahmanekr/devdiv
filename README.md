@@ -1,7 +1,7 @@
 # Devdiv
 
 ## Documentation
-Şuan hazır değil ama yakın zamanda bu repository için doküman'ı [Wikide](https://github.com/abdurrahmanekr/devdivgridlayout/wiki) bulabilirsiniz.
+Şuan hazır değil ama yakın zamanda bu repository için doküman'ı [Wikide](https://github.com/abdurrahmanekr/devdiv/wiki) bulabilirsiniz.
 
 ## Katkıda bulunma
 
