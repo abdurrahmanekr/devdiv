@@ -1,1 +1,9 @@
 node_modules/
+.DS_Store
+docs/_site
+docs/.jekyll
+docs/.jekyll-metadata
+docs/.bundle
+docs/.sass-cache
+docs/Gemfile
+docs/Gemfile.lock
