@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<div class="col s9">
+	<div class="dev-panel">
+		<div class="panel-header">
+			<h1>{{ page.title }}</h1>
+
+			{% for tag in page.tags %}
+				<a href="{{ baseurl }} tag/{{ tag }}" class="right tag dev-positive">{{ tag }}</a>
+			{% endfor %}
+		</div>
+		<div class="panel-content">
+			{{ content }}
+		</div>
+	</div>
+</div>
+<div class="col s3">
+	<div class="dev-list">
+		<ul>
+			{% for post in site.posts %}
+				<a href="{{ baseurl }} {{ post.url }}">
+					{% if page.title == post.title %}
+						<li class="text-assertive">{{ post.title }}</li>
+					{% else %}
+						<li>{{ post.title }}</li>
+					{% endif %}
+				</a>
+			{% endfor %}
+		</ul>
+	</div>
+</div>
