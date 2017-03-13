@@ -1,7 +1,7 @@
 # Devdiv
 
 ## Documentation
-Şuan hazır değil ama yakın zamanda bu repository için doküman'ı [Wikide](https://github.com/abdurrahmanekr/devdiv/wiki) bulabilirsiniz.
+Şuan (yeterince) hazır değil ama bu repository için doküman'ı [Getting Started](https://abdurrahmanekr.github.io/devdiv/getting-started/) bulabilirsiniz.
 
 ## Katkıda bulunma
 
