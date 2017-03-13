@@ -8,7 +8,7 @@ layout: default
 			<h1>{{ page.title }}</h1>
 
 			{% for tag in page.tags %}
-				<a href="{{ baseurl }} tag/{{ tag }}" class="right tag dev-positive">{{ tag }}</a>
+				<a href="{{ site.baseurl }} tag/{{ tag }}" class="right tag dev-positive">{{ tag }}</a>
 			{% endfor %}
 		</div>
 		<div class="panel-content">
@@ -20,7 +20,7 @@ layout: default
 	<div class="dev-list">
 		<ul>
 			{% for post in site.posts %}
-				<a href="{{ baseurl }} {{ post.url }}">
+				<a href="{{ site.baseurl }}{{ post.url }}">
 					{% if page.title == post.title %}
 						<li class="text-assertive">{{ post.title }}</li>
 					{% else %}
