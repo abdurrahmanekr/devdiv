@@ -1,7 +1,7 @@
-# Devdiv Grid Layout
+# Devdiv
 
 ## Documentation
-Şuan hazır değil ama yakın zamanda bu repository için doküman'ı [Wikide](https://github.com/abdurrahmanekr/devdivgridlayout/wiki) bulabilirsiniz.
+Şuan hazır değil ama yakın zamanda bu repository için doküman'ı [Wikide](https://github.com/abdurrahmanekr/devdiv/wiki) bulabilirsiniz.
 
 ## Katkıda bulunma
 
@@ -13,7 +13,7 @@
 
 ## Geliştirme
 
-1. Projeyi clone yapın (`git clone https://github.com/abdurrahmanekr/devdivgridlayout.git`)
+1. Projeyi clone yapın (`git clone https://github.com/abdurrahmanekr/devdiv.git`)
 2. Proje dizininde `npm install` 'ı çalıştırın. (__Not:__ nodejs kurulu olduğundan emin olun)
 3. Projede çalışmak için `gulp` yükleyin.
 4. `gulp` komutunu çalıştırarak console penceresini açık tutun.
