@@ -6,6 +6,7 @@
 	border-radius: 2px;
 	text-align: center;
 	color: #333;
+	font-size: 12px;
 	outline: none;
 	cursor: pointer;
 	-webkit-user-select: none;
@@ -15,6 +16,7 @@
 }
 a.button {
 	text-decoration: none;
+	font-size: 12px;
 }
 
 .button:active,
