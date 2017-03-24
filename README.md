@@ -1,4 +1,4 @@
-![Devdiv](http://i.hizliresim.com/1LVQLj.png)
+![Devdiv](https://cloud.githubusercontent.com/assets/15075759/24307099/8406f218-10cb-11e7-9990-f9f186db51b5.png)
 
 ## Documentation
 Şuan (yeterince) hazır değil ama bu repository için doküman'ı [Getting Started](https://abdurrahmanekr.github.io/devdiv/getting-started/) bulabilirsiniz.
